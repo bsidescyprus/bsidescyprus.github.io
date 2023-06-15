@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>BSides Cyprus 2023</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <!-- Bootstrap Icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+        <!-- SimpleLightbox plugin CSS-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head> 
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="secondNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="index.html#page-top"><img src="assets/img/small_logo.png" alt="BSides Cyprus 2023" style="height: 44px; width: 69px;"></a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto my-2 my-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="index.html#about">ABOUT</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#sponsors">SPONSORS</a></li>
+						<li class="nav-item"><a class="nav-link" href="index.html#team">BSIDES CY TEAM</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#contact">CONTACT</a></li>
+						<!-- <li class="nav-item"><a class="nav-link" href="agenda.html">AGENDA</a></li> -->
+						<li class="nav-item"><a class="nav-link" href="callforpapers.html">CALL FOR PAPERS</a></li>
+						<li class="nav-item"><a class="nav-link" href="codeofconduct.html">CODE OF CONDUCT</a></li>
+						<li class="nav-item"><a class="nav-link" href="archive.html">ARCHIVE</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Call for papers-->
+        <section class="page-section" id="callforpapers">
+			<div class="container px-4 px-lg-5" style="margin-bottom: 2.5em;">
+				<h2 class="text-center mt-0">Call for papers</h2>
+				<hr class="divider" />
+				<div id="outter" class="mx-auto d-block" style="width: 700px; position: relative;">
+				  <div id="left-div" style="position: absolute; top: 0; left: 0; width: 0.5cm; height: 100%; background-color: white;"></div>
+				  <div id="right-div" style="position: absolute; top: 0; right: 0; width: 0.5cm; height: 100%; background-color: white;"></div>
+				  <div style="position: absolute; top: 0; left: 0; right: 0; height: 0.5cm; background-color: white;"></div>
+				  <iframe id="my-iframe" frameborder="0" style="height: 3240px; width: 700px; border: none; " src="https://forms.zohopublic.com/virtualoffice16035/form/CallForPapersSecurityBSidesCyprus2023/formperma/wrvo5UAPyc7z23vSBvfMcYsL64-Znyj5L7MVHSqdUiw?zf_enablecamera=true" scrolling="no"></iframe>
+				</div>
+
+				<script>
+				  function adjustLayout() {
+					var pageWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+					var iframe = document.getElementById('my-iframe');
+					var outter = document.getElementById('outter');
+
+					if (pageWidth < 800) {
+					  iframe.style.height = '3650px';
+					  iframe.style.width = '400px';
+					  outter.style.width = '400px';
+					} else {
+					  iframe.style.height = '3240px';
+					  iframe.style.width = '700px';
+					  outter.style.width = '700px';
+					}
+				  }
+
+				  window.addEventListener('resize', adjustLayout);
+				  adjustLayout(); // Adjust layout on page load
+				</script>
+
+			</div>
+			
+        </section>
+        <!-- Footer-->
+        <footer class="bg-light py-5">
+            <div class="container px-4 px-lg-5">
+                <div class="small text-center text-muted">
+                    <a class="text-decoration-none" href="https://codebyte.cy" target="_blank">Developed by CodeByte Ltd</a>
+                </div>
+            </div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- SimpleLightbox plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html>
