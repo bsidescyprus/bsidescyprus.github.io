@@ -55,6 +55,17 @@
 			});
 		};
 	</script>
+	
+	<style>
+		.image-container {
+			display: inline-block; /* Ensures inline behavior for the container */
+			transition: transform 0.3s; /* Smooth transition for the transform property */
+		}
+
+		.image-container:hover {
+			transform: scale(1.1); /* Enlarge the image by 10% on hover */
+		}
+	</style>
 
 	<style>
 		#countdown {
@@ -344,97 +355,122 @@
 	</section>
 	<!-- Sponsors-->
 	<section class="page-section" id="sponsors">
-		<!-- <div class="container px-4 px-lg-5">
+		<div class="container px-4 px-lg-5">
 			<h2 class="text-center mt-0">BSidesCy23 Sponsors</h2>
 			<hr class="divider" />
 			<p class="text-center mt-0">A big thank you to our sponsors and supporters that helped us with BSides Cyprus
 				event this year!</p>
 			<br></br>
-			<h3 class="text-center mt-0">Sponsors</h3>
+			<h3 class="text-center mt-0">Platinum</h3>
 			<div class="row gx-4 gx-lg-5">
-				<div class="col-lg-3 col-md-6 d-flex align-items-center justify-content-center">
+				<div class="col-lg-4 col-md-6 text-center d-flex flex-column align-items-center justify-content-center">
 					<div class="mt-5">
-						<div class="mb-2"><img src="assets/img/logo1.png" alt="Logo"
-								style="max-height: 150px; max-width: 250px;"></div>
+						<div class="mb-2 image-container"><img src="assets/img/logos/logicom.png" alt="Logicom" style="max-height: 160px; max-width: 350px;"></div>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-6 d-flex align-items-center justify-content-center">
+				<div class="col-lg-4 col-md-6 text-center d-flex flex-column align-items-center justify-content-center">
 					<div class="mt-5">
-						<div class="mb-2"><img src="assets/img/logo2.png" alt="Logo"
-								style="max-height: 150px; max-width: 250px;"></div>
+						<div class="mb-2 image-container"><img src="assets/img/logos/exness.png" alt="Exness" style="max-height: 160px; max-width: 350px;"></div>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-6 d-flex align-items-center justify-content-center">
+				<div class="col-lg-4 col-md-6 text-center d-flex flex-column align-items-center justify-content-center">
 					<div class="mt-5">
-						<div class="mb-2"><img src="assets/img/logo3.png" alt="Logo"
-								style="max-height: 150px; max-width: 250px;"></div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6 d-flex align-items-center justify-content-center">
-					<div class="mt-5">
-						<div class="mb-2"><img src="assets/img/logo4.png" alt="Logo"
-								style="max-height: 150px; max-width: 250px;"></div>
+						<div class="mb-2 image-container"><img src="assets/img/logos/adacom.png" alt="Adacom" style="max-height: 160px; max-width: 350px;"></div>
 					</div>
 				</div>
 			</div>
 			<br></br>
-			<h3 class="text-center mt-0">CTF Hosted by</h3>
+			<h3 class="text-center mt-0">Gold</h3>
 			<div class="row gx-4 gx-lg-5">
-				<div class="col-lg-3 col-md-6 d-flex align-items-center justify-content-center">
+				<div class="col-lg-6 col-md-6 d-flex align-items-center justify-content-center">
 					<div class="mt-5">
-						<div class="mb-2"><img src="assets/img/logo1.png" alt="Logo"
-								style="max-height: 150px; max-width: 250px;"></div>
+						<div class="mb-2 image-container"><img src="assets/img/logos/pwc.png" alt="PwC"
+								style="max-height: 150px; max-width: 335px;"></div>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-6 d-flex align-items-center justify-content-center">
+				<div class="col-lg-6 col-md-6 d-flex align-items-center justify-content-center">
 					<div class="mt-5">
-						<div class="mb-2"><img src="assets/img/logo2.png" alt="Logo"
-								style="max-height: 150px; max-width: 250px;"></div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6 d-flex align-items-center justify-content-center">
-					<div class="mt-5">
-						<div class="mb-2"><img src="assets/img/logo3.png" alt="Logo"
-								style="max-height: 150px; max-width: 250px;"></div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6 d-flex align-items-center justify-content-center">
-					<div class="mt-5">
-						<div class="mb-2"><img src="assets/img/logo4.png" alt="Logo"
-								style="max-height: 150px; max-width: 250px;"></div>
+						<div class="mb-2 image-container"><img src="assets/img/logos/qsecure.png" alt="QSecure"
+								style="max-height: 160px; max-width: 330px;"></div>
 					</div>
 				</div>
 			</div>
 			<br></br>
-			<h3 class="text-center mt-0">Community Supporters</h3>
+			<h3 class="text-center mt-0">Silver</h3>
 			<div class="row gx-4 gx-lg-5">
-				<div class="col-lg-3 col-md-6 d-flex align-items-center justify-content-center">
-					<div class="mt-5">
-						<div class="mb-2"><img src="assets/img/logo1.png" alt="Logo"
-								style="max-height: 150px; max-width: 250px;"></div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6 d-flex align-items-center justify-content-center">
-					<div class="mt-5">
-						<div class="mb-2"><img src="assets/img/logo2.png" alt="Logo"
-								style="max-height: 150px; max-width: 250px;"></div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6 d-flex align-items-center justify-content-center">
-					<div class="mt-5">
-						<div class="mb-2"><img src="assets/img/logo3.png" alt="Logo"
-								style="max-height: 150px; max-width: 250px;"></div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6 d-flex align-items-center justify-content-center">
-					<div class="mt-5">
-						<div class="mb-2"><img src="assets/img/logo4.png" alt="Logo"
-								style="max-height: 150px; max-width: 250px;"></div>
+				<div class="col-lg-12 col-md-6 d-flex align-items-center justify-content-center">
+					<div class="col-lg-1 offset-lg-0.5 col-md-6 text-center d-flex flex-column align-items-center justify-content-center">
+						<div class="mt-5">
+							<div class="mb-2 image-container"><img src="assets/img/logos/deloitte.png" alt="Deloitte" style="max-height: 150px; max-width: 225px;"></div>
+						</div>
 					</div>
 				</div>
 			</div>
-		</div> -->
-		<div class="container px-4 px-lg-5">
+			<br></br>
+			<h3 class="text-center mt-0">Contributors</h3>
+			<div class="row gx-4 gx-lg-5">
+				<div class="col-lg-3 col-md-6 d-flex align-items-center justify-content-center">
+					<div class="mt-5">
+						<div class="mb-2 image-container"><img src="assets/img/logos/OffSec.jpg" alt="Offensive Security"
+								style="max-height: 70px; max-width: 190px;"></div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 d-flex align-items-center justify-content-center">
+					<div class="mt-5">
+						<div class="mb-2 image-container"><img src="assets/img/logos/altered_security.png" alt="Altered Security"
+								style="max-height: 70px; max-width: 190px;"></div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 d-flex align-items-center justify-content-center">
+					<div class="mt-5">
+						<div class="mb-2 image-container"><img src="assets/img/logos/cloudbreach.png" alt="CloudBreach"
+								style="max-height: 70px; max-width: 190px;"></div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 d-flex align-items-center justify-content-center">
+					<div class="mt-5">
+						<div class="mb-2 image-container"><img src="assets/img/logos/hak5.jpg" alt="Hak5"
+								style="max-height: 70px; max-width: 190px;"></div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 d-flex align-items-center justify-content-center">
+					<div class="mt-5">
+						<div class="mb-2 image-container"><img src="assets/img/logos/codebyte.png" alt="CodeByte"
+								style="max-height: 60px; max-width: 190px;"></div>
+					</div>
+				</div>
+			</div>
+			<br></br>
+			<h3 class="text-center mt-0">Supporters</h3>
+			<div class="row gx-4 gx-lg-5">
+				<div class="col-lg-3 col-md-6 d-flex align-items-center justify-content-center">
+					<div class="mt-5">
+						<div class="mb-2 image-container"><img src="assets/img/logos/CCS.jpg" alt="CCS"
+								style="max-height: 70px; max-width: 190px;"></div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 d-flex align-items-center justify-content-center">
+					<div class="mt-5">
+						<div class="mb-2 image-container"><img src="assets/img/logos/CCSC.png" alt="CCSC"
+								style="max-height: 70px; max-width: 190px;"></div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 d-flex align-items-center justify-content-center">
+					<div class="mt-5">
+						<div class="mb-2 image-container"><img src="assets/img/logos/owasp.png" alt="OWASP Limassol Chapter"
+								style="max-height: 70px; max-width: 190px;"></div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 d-flex align-items-center justify-content-center">
+					<div class="mt-5">
+						<div class="mb-2 image-container"><img src="assets/img/logos/bsidesathens.png" alt="BSides Athens"
+								style="max-height: 70px; max-width: 190px;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br></br>
+		<!--<div class="container px-4 px-lg-5">
 			<h2 class="text-center mt-0">Become Sponsor</h2>
 			<hr class="divider" />
 			<p class="text-center mt-0">Security BSides is community organized, volunteer driven, sponsor funded. Biggest companies around the world support BSides because it is where local infosec community exchange knowledge. Sponsoring Security BSides Cyprus event means that:</p>
@@ -448,7 +484,7 @@
 			</p>
 			<p class="text-center mt-0"><strong>Call for sponsors started!</strong></p>
 			<p class="text-center mt-0">For more information regarding Sponsorship Packages download our <a href="./assets/20230701_Sponsor Prospectus_v.final.pdf" target="_blank">Sponsorship Kit</a> or contact us by email to sponsors [at] bsidescyprus [dot] com.</p>
-		</div>
+		</div>-->
 	</section>
 	<!-- Team-->
 	<section class="page-section bg-dark text-white" id="team">
