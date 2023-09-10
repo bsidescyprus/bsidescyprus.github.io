@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>BSides Cyprus 2023</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <!-- Bootstrap Icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+        <!-- SimpleLightbox plugin CSS-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head> 
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="secondNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="index.html#page-top"><img src="assets/img/small_logo.png" alt="BSides Cyprus 2023" style="height: 44px; width: 69px;"></a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto my-2 my-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="index.html#about">ABOUT</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#sponsors">SPONSORS</a></li>
+						<li class="nav-item"><a class="nav-link" href="index.html#team">BSIDES CY TEAM</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#contact">CONTACT</a></li>
+						<li class="nav-item"><a class="nav-link" href="agenda.html">AGENDA</a></li>
+						<li class="nav-item"><a class="nav-link" href="training.html">TRAINING</a></li>
+                        <li class="nav-item"><a class="nav-link" href="callforpapers.html">CALL FOR PAPERS</a></li>
+                        <li class="nav-item"><a class="nav-link" href="codeofconduct.html">CODE OF CONDUCT</a></li>
+                        <li class="nav-item"><a class="nav-link" href="archive.html">ARCHIVE</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Presentation details-->
+		
+        <section class="page-section" id="codeofconduct">
+            <div id="presentation2" style="display: none;" class="container px-4 px-lg-5">
+                <h2 class="text-center mt-0">A hackers guide to exploiting secrets</h2>
+                <hr class="divider" />
+				
+				<p>Exposed secrets like API keys and other credentials are the crown jewels of organizations but continue to be a persistent vulnerability within security. This presentation sheds light on the various methods used by attackers to discover and exploit these secrets in different technologies. This manual will include how to:</p>
+
+				<ul>
+					<li>Abuse GitHub public API</li>
+					<li>Gain unauthorized access to private git repos</li>
+					<li>Decompile containers</li>
+					<li>Decompile mobile applications from the App and Play Stores</li>
+				</ul>
+
+				<p>We combine novel research, real-life attack paths, and live demos to prove exactly the steps attackers take, revealing their playbook.</p>
+
+				<p>Recent research has shown that git repositories are treasure troves full of secrets. A year-long study showed that 10 million secrets were pushed into public repositories in 2022 alone. We will show exactly how adversaries abuse the public GitHub API to uncover these secrets, and also demonstrate how to gain unauthorized access to private git repositories. This talk will also dive into research showing how common it is to find secrets in containers like docker images and even mobile applications. Finally, we will do a live demo of how attackers can easily break apart these technologies to uncover hidden jewels.</p>
+
+				<h4><b>Type of presentation:</b> <span style="font-size: smaller;">Technical Talk</span></h4>
+				<h4><b>Expected duration:</b> <span style="font-size: smaller;">45 minutes</span></h4>
+			</div>
+			
+			<div id="presentation4" style="display: none;" class="container px-4 px-lg-5">
+                <h2 class="text-center mt-0">Exploring TTPs of modern workstation banking frauds</h2>
+                <hr class="divider" />
+				
+				<p>Financial institutions are grappling with an alarming rise in cyber threats, resulting in a surge of fraud and financial crimes. While some Threat Actors (TAs) concentrate on workstation banking trojans suited for corporate environments, others exploit Android banking trojans for retail fraud.</p>
+
+				<p>Our presentation delves into the methodologies and confirmed instances of two primary fraud operations behind Ramnit and Ursnif. We explore Automatic Transfer Systems (ATS) utilizing an innovative web injection kit (drIBAN) to acquire fresh money mules, manipulate legitimate banking transfers, and veil activities. Additionally, we investigate the Account Takeover (ATO) technique, capitalizing on human vulnerabilities through Social Engineering and malware capabilities.</p>
+
+				<p>ATS and ATO techniques have emerged as standard practices in modern fraud operations, allowing TAs to adapt their approaches continually. Our comprehensive analysis offers multifaceted insights, encompassing technical nuances, a comparative assessment of Ramnit and Ursnif fraud models, and the introduction of potential countermeasures to mitigate infection risks and safeguard users.</p>
+
+				<p>As the cyber threat landscape evolves, maintaining vigilance and being equipped with knowledge and tools is imperative for financial institutions to combat sophisticated banking fraud. Our presentation is designed to empower attendees with critical insights and proactive strategies for defending against these prevalent cyber threats.</p>
+
+				<h4><b>Type of presentation:</b> <span style="font-size: smaller;">Technical Talk</span></h4>
+				<h4><b>Expected duration:</b> <span style="font-size: smaller;">40 minutes</span></h4>
+			</div>
+			
+			<div id="presentation5" style="display: none;" class="container px-4 px-lg-5">
+                <h2 class="text-center mt-0">Security Bot - Event-based Application Security Engine</h2>
+                <hr class="divider" />
+				
+				<p>If the company is rapidly growing, it is hard to maintain proper security automation scanning in all of its parts. The Security Bot is the solution that can help. Powered by open-source tools, it allows us to provide 100% coverage for the company's projects out of the box. If a specific configuration is required, there are still options to make it custom. These changes can be easily achieved by editing a configuration file that looks as friendly as an ordinary working email message. Multiple workers in parallel allow us to cover huge companies without any problems or restrictions.</p>
+
+				<p>Project is already available at <a href="https://github.com/exness/security-bot" target="_blank">Github</a>, and a new version is about to be published by the end of September.</p>
+
+				<h4><b>Type of presentation:</b> <span style="font-size: smaller;">Tool demonstration</span></h4>
+				<h4><b>Expected duration:</b> <span style="font-size: smaller;">20 minutes</span></h4>
+			</div>	
+			
+			<div id="presentation6" style="display: none;" class="container px-4 px-lg-5">
+				<h2 class="text-center mt-0">Bypassing Anti-Virus using BadUSB</h2>
+				<hr class="divider" />
+				
+				<p>During this presentation, we will take a look over how we can bypass most Anti-Virus detection using a payload embedded on a BadUSB device, resulting in a silver bullet for gaining initial access inside a victim network. Demo will be also included during the presentation. Also, prevention steps and techniques will be presented during the talk. This is a very technical presentation, which presents a real-life technique used within Red Team and Physical Penetration Testing engagements, that worked and it is still working against most of the organizations and companies worldwide, even when they are using advanced anti-virus solutions or EDRs.</p>
+
+				<h4><b>Type of presentation:</b> <span style="font-size: smaller;">Technical Talk</span></h4>
+				<h4><b>Expected duration:</b> <span style="font-size: smaller;">45 minutes</span></h4>
+			</div>
+			
+			<div id="presentation7" style="display: none;" class="container px-4 px-lg-5">
+				<h2 class="text-center mt-0">Mitigating SSRF Vulnerabilities in Go: A Practical Guide</h2>
+				<hr class="divider" />
+				
+				<p>Server-Side Request Forgery (SSRF) vulnerabilities have been around for a long time, and they still pose a significant threat to web applications, so much so this kind of vulnerability has been included in OWASP TOP 10. This type of attack allows an attacker to send unauthorized requests from a vulnerable application, which can lead to data leakage, server-side request smuggling, and even full-scale remote code execution.</p>
+
+				<p>In this technical talk, we will explore the concept of SSRF attacks and how easy it is for developers to introduce these vulnerabilities into their code. We will delve into the technical details of SSRF, looking at some of the most common attack scenarios and how they can be exploited.</p>
+
+				<p>To make this talk more practical, we will also perform a live coding demonstration of all the techniques discussed.</p>
+
+				<p>At the end of this talk, attendees will have a better understanding of SSRF attacks, how they work, and how to protect their Go applications from them. They will also have a clear idea of the various tools and techniques available to mitigate SSRF risks, making it harder for attackers to exploit these vulnerabilities.</p>
+
+				<h4><b>Type of presentation:</b> <span style="font-size: smaller;">Technical Talk</span></h4>
+				<h4><b>Expected duration:</b> <span style="font-size: smaller;">30 minutes</span></h4>
+			</div>
+
+			<div id="presentation8" style="display: none;" class="container px-4 px-lg-5">
+				<h2 class="text-center mt-0">Kubernetes RBAC: Practice after Theory</h2>
+				<hr class="divider" />
+				
+				<p>Half of story telling, half of the tips and tricks my team uses to provide access to Kubernetes clusters.</p>
+				
+				<ol>
+					<li>
+						<p>Brief introduction on the topic and explaining the main concepts of K8s RBAC. As much as I would like to skip this part, it is necessary for the further story. It is here where most presentations about the topic stop, just rephrasing the official documentation.</p>
+					</li>
+					<li>
+						<p>The formulation of the task and the way Kubernetes specifics reflect the preparation: access scenarios, roles matrix, and the place Kubernetes API plays here.</p>
+					</li>
+					<li>
+						<p>How we did the things and what we found: issues, chosen tools, and technical tricks, e.g., combinatorics versus linear approach in defining the number of different roles, hidden consequences of using aggregated roles, double impersonation, etc.</p>
+					</li>
+					<li>
+						<p>Non-obvious ways to solve RBAC-related tasks: using admission control for RBAC audit or to create decoys in Kubernetes clusters.</p>
+					</li>
+					<li>
+						<p>List of recommended tools and a brief overview of how the main cloud providers implement access to Kubernetes.</p>
+					</li>
+				</ol>
+
+				<h4><b>Type of presentation:</b> <span style="font-size: smaller;">Technical Talk</span></h4>
+				<h4><b>Expected duration:</b> <span style="font-size: smaller;">30 minutes</span></h4>
+			</div>
+			
+			<div id="presentation9" style="display: none;" class="container px-4 px-lg-5">
+				<h2 class="text-center mt-0">Unmasking the Mobile Threats: An In-Depth Analysis of Android Banking Trojans</h2>
+				<hr class="divider" />
+				
+				<p>Society increasingly relies on mobile phones for a range of essential services, including banking, shopping, and work-related tasks. Because of that, cybercriminals have noticed a shift of users from desktop to mobile, becoming aware of the burgeoning opportunities to exploit this trend for their own gains.</p>
+				
+				<p>With a focus on financial gains, threat actors (TAs) have developed sophisticated Android banking trojans, evolving from intercepting SMS messages to executing complex Automatic Transfer System (ATS) attacks.</p>
+				
+				<p>During the last years, collaborating with high-level financial institutions, we observed a major spike of malicious applications on mobile devices. TAs from all over the world are taking advantage of this digital transformation due to the rapidly increasing volume of digital transactions and the availability of fresh targets.</p>
+				
+				<p>The presentation will delve into modern Android banking trojans, illustrating evolving tactics such as SMS-stealer to fully-armed RATs like TeaBot, PixPirate, and SharkBot. It will explore techniques for banking fraud, 2FA bypass, and defense evasion. Additionally, the talk will cover the latest social engineering and sideloading strategies employed to distribute trojans, even through the official Google Play Store. Real-world examples from incident response cases will dissect current attack methodologies and tactics, shedding light on this escalating threat landscape.</p>
+
+				<h4><b>Type of presentation:</b> <span style="font-size: smaller;">Technical Talk</span></h4>
+				<h4><b>Expected duration:</b> <span style="font-size: smaller;">40 minutes</span></h4>
+			</div>
+			
+			<div id="presentation10" style="display: none;" class="container px-4 px-lg-5">
+				<h2 class="text-center mt-0">The Art of Compromising C2 Servers: A Web Application Vulnerabilities Perspective</h2>
+				<hr class="divider" />
+				
+				<p>C2 servers of mobile and Windows malware are usually left to their own fate after they have been discovered and the malware is no longer effective. We are going to take a deep dive into the rabbit hole of attacking and owning C2 servers, exposing details about their infrastructure, code bases, and the identity of the companies and individuals that operate and profit from them.</p>
+				
+				<p>While understanding and reversing malware is a highly skilled procedure, attacking the C2 itself rarely requires a lot of technical skills. Most of the C2 servers have the same typical HTTP problems that can be detected by off-the-shelf vulnerability scanners.</p>
+				
+				<p>By exploiting low-hanging fruit vulnerabilities, an attacker can obtain unauthorized access to administrative functions, allowing them to command thousands of devices and further explore other attack vectors. This can give them access to administrator panels and malware source code, and result in the identity of threat actors being exposed.</p>
+
+				<h4><b>Type of presentation:</b> <span style="font-size: smaller;">Technical Talk</span></h4>
+				<h4><b>Expected duration:</b> <span style="font-size: smaller;">40 minutes</span></h4>
+			</div>
+
+			<div id="presentation11" style="display: none;" class="container px-4 px-lg-5">
+				<h2 class="text-center mt-0">Phishing Email Analysis with deMailer</h2>
+				<hr class="divider" />
+				
+				<p>I'm going to talk about a tool that I’ve been working on for the last 1.5 years called deMailer. This tool can be used by security practitioners to automate email workload investigation and enrich their Threat Intelligence platform with its results. deMailer extracts the necessary information from email files (*.EML/MSG), gathers intelligence, scans the observables for maliciousness using the VirusTotal service, and finally, it prints the results in a user-friendly format.</p>
+				
+				<p>Before diving into how the tool works, I’ll briefly present the challenges faced during the development process. Later, I’ll showcase its capabilities and provide a quick demonstration to the audience using a sample from Emotet’s phishing campaign.</p>
+
+				<h4><b>Type of presentation:</b> <span style="font-size: smaller;">Tool demonstration</span></h4>
+				<h4><b>Expected duration:</b> <span style="font-size: smaller;">20 minutes</span></h4>
+			</div>
+
+			<div id="presentation14" style="display: none;" class="container px-4 px-lg-5">
+				<h2 class="text-center mt-0">MFA's Achilles Heel: A Phishing Expedition in Real-Time</h2>
+				<hr class="divider" />
+				
+				<p>Phishing attacks have long been a concern in the cybersecurity world, but how often do we delve into the more advanced tactics employed by attackers?</p>
+
+				<p>Join Wael for an enlightening session that goes beyond traditional phishing techniques, shining a spotlight on the often-underestimated method of bypassing Multi-Factor Authentication (MFA).</p>
+
+				<p>Using a Microsoft account as a prime example, this presentation will offer a hands-on look into how even the most trusted security measures can be circumvented.</p>
+
+				<p>Attendees will journey from the initial steps of domain acquisition, through the mechanics of the phishing attack, and witness the startling reality of an MFA bypass in action.</p>
+
+				<p>By the end, the audience will be equipped with knowledge that's not just theoretical but deeply practical, reshaping how they view and defend against phishing threats.</p>
+
+				<h4><b>Type of presentation:</b> <span style="font-size: smaller;">Technical Talk</span></h4>
+				<h4><b>Expected duration:</b> <span style="font-size: smaller;">45 minutes</span></h4>
+			</div>
+
+			<div id="presentation15" style="display: none;" class="container px-4 px-lg-5">
+				<h2 class="text-center mt-0">SELinux Basics</h2>
+				<hr class="divider" />
+				
+				<p>During this workshop, we will dig into SELinux a bit deeper than "disable it." We will see how it works, what are the basic blocks it is built of, and how to use these blocks to build a perfectly secure system for our needs.</p>
+
+				<p>You will get familiar with all the tools and terms you need to build a Mandatory Access Control (MAC)-based SELinux policy for your company. We will also touch Role-Based Access Control (RBAC) a bit, just to make sure you know it exists.</p>
+
+				<p>All attendees are expected to have an RH-based (CentOS/Fedora/Oracle Linux) VM running and a laptop.</p>
+
+				<p>We will have 2 sessions, each lasting 50 minutes, with a 10-minute break in between and a 10-minute Q&A session at the end.</p>
+
+				<h4><b>Type of presentation:</b> <span style="font-size: smaller;">Workshop</span></h4>
+				<h4><b>Expected duration:</b> <span style="font-size: smaller;">120 minutes</span></h4>
+			</div>
+			
+			<div id="presentation16" style="display: none;" class="container px-4 px-lg-5">
+				<h2 class="text-center mt-0">From Code to Capture: Enhancing Security Awareness with CTFs for Developers</h2>
+				<hr class="divider" />
+				
+				<p>In 2019, our journey started with internal CTFs for developers, transforming from simple tasks to robust events. Over 200 players across 5 companies engaged in our custom attack-defense format, bolstering security culture. Along the way, we uncovered tricks to kickstart CTFs in your organization and identify security enthusiasts. My talk traces this evolution, highlighting why traditional metrics fall short. I'll also delve into feedback and outcomes from our recent event, showcasing its impact on business and fostering a security-driven culture.</p>
+
+				<p>The unique 'Onslaught' format takes center stage, granting teams root access to their own vulnerable machines. With users exploring services and hackers lurking, the CTF's objective is to safeguard the system while maintaining functionality.</p>
+
+				<p>Join me to master the journey from concept to culture, leveraging CTFs to heighten security awareness.</p>
+
+				<h4><b>Type of presentation:</b> <span style="font-size: smaller;">Technical Talk</span></h4>
+				<h4><b>Expected duration:</b> <span style="font-size: smaller;">35 minutes</span></h4>
+			</div>
+
+			
+			<div id="presentation18" style="display: none;" class="container px-4 px-lg-5">
+				<h2 class="text-center mt-0">Exploring Serverless Threats</h2>
+				<hr class="divider" />
+				
+				<p>The rise of serverless computing brings unparalleled agility, scalability, and cost-efficiency to application development but also introduces a fresh array of security challenges. In this presentation, we embark on an insightful journey into serverless threats, dissecting the vulnerabilities that can compromise data, disrupt operations, and undermine user trust.</p>
+
+				<p>Delving into real-world cases, we dissect vulnerabilities arising from inadequate authentication, insecure deployment practices, and more. Attendees will gain insights into proactive measures such as strict access controls, continuous monitoring, and leveraging managed security services. By comprehending the intricate interplay of serverless architecture and security, this presentation equips professionals to build and maintain resilient, threat-resistant serverless applications in an increasingly interconnected digital ecosystem.</p>
+
+				<h4><b>Type of presentation:</b> <span style="font-size: smaller;">Technical Talk</span></h4>
+				<h4><b>Expected duration:</b> <span style="font-size: smaller;">30 minutes</span></h4>
+			</div>
+			
+			<div id="presentation19" style="display: none;" class="container px-4 px-lg-5">
+				<h2 class="text-center mt-0">Security Awareness at Scale</h2>
+				<hr class="divider" />
+				
+				<p>Most companies understand that they need to raise the security awareness level among their employees. But mostly, it is done by test phishing attacks and some kind of survey/quiz. At the same time, such security awareness activities could have multiple goals - learning, raising awareness level, raising security brand, and others. That's why there could be different activities for each goal.</p>
+
+				<p>In this presentation, I will share the experience of conducting an event called "Security week." For almost 10 years, we have organized such an event and every year, we have experimented with the formats, tried some new ones, developed our own types, and each time, we have analyzed our success.</p>
+
+				<p>As a result, I'd like to share about 10 different formats with pros and cons of each, which could help security teams in companies to avoid our mistakes and to get new ideas for implementation.</p>
+
+				<h4><b>Type of presentation:</b> <span style="font-size: smaller;">Technical Talk</span></h4>
+				<h4><b>Expected duration:</b> <span style="font-size: smaller;">45 minutes</span></h4>
+			</div>
+			
+			<div id="presentation20" style="display: none;" class="container px-4 px-lg-5">
+				<h2 class="text-center mt-0">The Interplay Between Data Privacy and Information Security</h2>
+				<hr class="divider" />
+				
+				<p>You can have security without privacy, but you can't have privacy without security.</p>
+
+				<p>This presentation will highlight the interplay between Data Privacy and Information Security, with an emphasis on the dependency of the former on the latter. It will further discuss the need for technical knowledge and security understanding within the Privacy team, as well as the need for collaboration between the Data Privacy and InfoSec teams.</p>
+
+				<p>Then, going into more depth, this presentation will also present the key topics that the two teams need to tackle together, like the creation of an Incident Response Plan, PIA/DPIA, Vendor Risk Assessment, Training & Awareness, compliance with relevant Certification Frameworks, and the specification & enforcement of pertinent Policies.</p>
+
+				<h4><b>Type of presentation:</b> <span style="font-size: smaller;">Technical Talk</span></h4>
+				<h4><b>Expected duration:</b> <span style="font-size: smaller;">20 minutes</span></h4>
+			</div>
+
+        </section>
+		
+		<script>
+			// Get the presentation_id parameter from the URL
+			const urlParams = new URLSearchParams(window.location.search);
+			const presentationId = urlParams.get("presentation_id");
+
+			// Function to show the selected presentation and hide others
+			function showPresentation(presentationId) {
+				const presentations = document.querySelectorAll("div[id^='presentation']");
+				presentations.forEach(presentation => {
+					if (presentation.id === ('presentation'+presentationId)) {
+						presentation.style.display = "block";
+					} else {
+						presentation.style.display = "none";
+					}
+				});
+			}
+
+			// Call the showPresentation function with the retrieved presentation_id
+			showPresentation(presentationId);
+		</script>
+
+        <!-- Footer-->
+        <footer class="bg-light py-5">
+            <div class="container px-4 px-lg-5">
+                <div class="small text-center text-muted">
+                    <a class="text-decoration-none" href="https://codebyte.cy" target="_blank">Developed by CodeByte Ltd</a>
+                </div>
+            </div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- SimpleLightbox plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html>
